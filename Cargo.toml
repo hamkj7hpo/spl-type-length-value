@@ -1,0 +1,17 @@
+[package]
+name = "spl-type-length-value"
+version = "0.6.0"
+description = "Solana Program Library Type Length Value"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/hamkj7hpo/spl-type-length-value"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "5208a7870826307290c30b7d80768f40267433a1" }
+spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f81cfea71b4b961e1c7daf82d8f307ad9b3bc194", package = "spl-discriminator" }
+spl-pod = { git = "https://github.com/hamkj7hpo/spl-pod.git", rev = "0ff7d641b198149f6e0b1265e85b7258db87e254" }
+spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f81cfea71b4b961e1c7daf82d8f307ad9b3bc194", package = "spl-program-error" }
+bytemuck = { version = "1.17.1", features = ["derive"] }
