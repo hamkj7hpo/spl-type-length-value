@@ -14,7 +14,7 @@ test-sbf = []
 [dependencies]
 bytemuck = { version = "1.15.0", features = ["derive"] }
 serde = { version = "1.0.197", optional = true }
-solana-program = { git = "https://github.com/hamkj7hpo/solana.git", rev = "bcc398b87fbe0905d1a847cb94a264ecfaa5e95d" }
+solana-program = { git = "https://github.com/solana-labs/solana.git", rev = "b1e378009ffee4c75965723d3317fccbebcf2524" }
 spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-discriminator" }
 spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-program-error" }
 spl-type-length-value = { path = "../" }
