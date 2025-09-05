@@ -10,9 +10,9 @@ repository = "https://github.com/hamkj7hpo/spl-type-length-value"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
+spl-pod = { git = "https://github.com/hamkj7hpo/spl-pod.git", branch = "safe-pump-compat", package = "spl-pod" }
 solana-program = { git = "https://github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program" }
 spl-discriminator = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-discriminator" }
-spl-pod = { git = "https://github.com/hamkj7hpo/spl-pod.git", rev = "5d5ef3ff0e782dc6b22ddc15d08caa05e173abeb", default-features = false }
 spl-program-error = { git = "https://github.com/hamkj7hpo/solana-program-library.git", rev = "f86fefd752bc4ca50adc8f06cd9ba579326c769e", package = "spl-program-error" }
 bytemuck = { version = "1.18.0", features = ["derive"] }
 
