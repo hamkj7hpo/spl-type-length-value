@@ -17,5 +17,4 @@ bytemuck = { version = "1.18.0", features = ["derive"] }
 [workspace]
 members = ["tlv-account-resolution"]
 
-[patch.crates-io]
 spl-tlv-account-resolution = { path = "./tlv-account-resolution" }
